@@ -1,0 +1,82 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* common shared styles */
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.banner-section {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 2px;
+}
+
+.banner-heading {
+    text-align: left;
+    height: 80%;
+    width: 35vw;
+    margin-bottom: 0;
+}
+
+.heading-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+/* .banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+} */
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.btn-primary {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+#banner-img {
+    display: flex;
+    justify-content: center;
+}
+
+/* featured section */
+.featured-option {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.featured-flower {
+    display: flex;
+
+}
+
+.img-title {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
